@@ -1,4 +1,4 @@
-name: GitHub-Profile-3D-Contrib
+name: All-Time-Contributions-Card
 
 on:
   schedule:
@@ -13,7 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Build all-time card
+        run: node .github/scripts/all-time-card.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -21,6 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib
-          git diff --cached --quiet || git commit -m "Update 3D contribution graph"
+          git add generated
+          git diff --cached --quiet || git commit -m "Update all-time contributions card"
           git push
