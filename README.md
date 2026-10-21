@@ -1,26 +1,7 @@
 # Isaiah Wright
-<!-- ![image](https://github-readme-stats.vercel.app/api/top-langs/?username=IsaiahWright902&theme=dark) -->
-<!--![image](https://github-readme-stats.vercel.app/api?username=IsaiahWright902&theme=dark)-->
-![image](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=IsaiahWright902&theme=vue)
 
+I'm curious by nature and driven by constant improvement, always looking for a better way to build and run things.
 
+Check out my portfolio site: [isaiahwright.dev](https://isaiahwright.dev)
 
-
-
-
-	
-
-<!--
-**IsaiahWright902/IsaiahWright902** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![3D view of my GitHub contributions](./profile-3d-contrib/profile-night-view.svg)
